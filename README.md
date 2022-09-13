@@ -10,6 +10,6 @@ On the page is a list of the names of members of House Slytherin. When clicked, 
 
 Links:
 
-Live site on GitHub Pages:
+Live site on GitHub Pages: https://k-irungu.github.io/End-of-Phase-1-Project-Moringa-/
 
 
