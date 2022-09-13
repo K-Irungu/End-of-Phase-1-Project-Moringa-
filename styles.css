@@ -1,0 +1,468 @@
+body {
+    position: absolute;
+    width: 1440px;
+    height: 2368px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgb(8, 51, 35);
+    border-radius: 70px;
+    }
+
+#container1 { 
+position: absolute;
+box-sizing: border-box;   
+width: 1333px;
+height: 1341px;
+left: 45px;
+top: 0px;
+
+background: #d9d9d918;
+border: 0px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 70px;
+}
+
+#titleBlock {
+position: absolute;
+width: 871px;
+height: 190px;
+left: 70px;
+top: 89px;
+    
+background: rgba(28, 111, 81, 0.42);
+box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+border-radius: 70px; 
+}
+
+#titleBlock h1 {
+text-align: center;
+color: white;
+font-family:'Times New Roman', Times, serif;
+font-style: italic;
+font-size: 70px;
+line-height: 90px;
+
+filter: drop-shadow(7px 7px 3px rgba(0, 0, 0, 0.25));
+}
+
+#logo {
+position: absolute;
+width: 242px;
+height: 240px;
+left: 1020px;
+top: 65px;
+
+background: url(https://www.wizardingworld.com/_next/image?url=https%3A%2F%2F%2F%2Fimages.ctfassets.net%2Fusf1vwtuqyxm%2F2hc0ybmCjDUBRqNgZIMtgU%2F8f4a5cec029262ebbf51641ff2436f19%2FSlytherin_House_Pride_Collection_V2.svg&w=375&q=75);
+box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.4);
+border-radius: 20px;
+}
+
+#container1 > p {
+position: absolute;
+width: 1185px;
+height: 553px;
+left: 75px;
+top: 355px;  
+
+font-family: 'Times New Roman', Times, serif;
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 40px;
+text-align: justify;
+
+color: #FFFFFF;
+filter: drop-shadow(7px 7px 3px rgba(0, 0, 0, 0.29));
+}   
+
+.pureBloodsButton { 
+position: absolute;
+width: 381px;
+height: 82px;
+left: 78px;
+top: 960px;
+
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;
+font-style: normal;
+line-height: 41px;
+
+color: #312F2F;
+background: #D9D9D9;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+border-radius: 70px;
+transition-duration: 0.4s;
+
+}
+.pureBloodsButton:hover {
+    background-color:rgba(28, 111, 81, 0.42);
+    color: #D9D9D9;
+}
+
+.resetButton {
+position: absolute;
+width: 582px;
+height: 82px;
+left: 360px;
+top: 1120px;
+
+font-size: 25px;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+
+color: #312F2F;
+background: #D9D9D9;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+border-radius: 70px;
+transition-duration: 0.4s;
+
+
+}
+
+.resetButton:hover {
+    background-color:rgba(28, 111, 81, 0.42);
+    color: #D9D9D9;
+}
+
+
+.halfBloodsButton {
+position: absolute;
+width: 381px;
+height: 82px;
+left: 880px;
+top: 960px;
+
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;
+font-style: normal;
+line-height: 41px;
+
+color: #312F2F;
+background: #D9D9D9;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+border-radius: 70px;
+transition-duration: 0.4s;
+}
+.halfBloodsButton:hover {
+    background-color:rgba(255, 234, 0, 0.453);
+    color: #D9D9D9;
+}
+
+
+
+
+#listDisplay {
+display: block;
+position: absolute;
+width: 547px;
+height: 883px;
+left: 57px;
+top: 1432px;
+text-align: center;
+
+background: #D9D9D9;
+border-radius: 20px;
+overflow-y: scroll;
+height: 883px;
+}
+
+
+input {
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;
+width: 460px;
+background: #D9D9D9;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+border-radius: 70px;
+
+}
+
+#characterPic {
+    object-fit: contain;
+}
+
+#displayArea {
+position: absolute;
+width: 547px;
+height: 883px;
+left: 843px;
+top: 1432px;
+
+background: #D9D9D9;
+border-radius: 20px;
+}
+
+#characterPic {
+    position: absolute;
+    width: 453px;
+    height: 380px;
+    left: 891px;
+    top: 1472px;
+    
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51)), rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+}
+
+#fullName {
+    position: absolute;
+width: 112px;
+height: 28px;
+left: 887px;
+top: 1902px;
+
+font-family: 'Times New Roman', Times, serif;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+
+color: #312F2F;
+}
+
+#species {
+    position: absolute;
+    width: 111.17px;
+    height: 28px;
+    left: 887.83px;
+    top: 1958px;
+    
+    font-family: 'Judson';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    
+    color: #312F2F;
+
+}
+
+#gender {
+position: absolute;
+width: 110px;
+height: 28px;
+left: 889px;
+top: 2014px;
+
+font-family: 'Judson';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+
+color: #312F2F;
+
+}
+
+#dateOfBirth {
+    position: absolute;
+width: 111px;
+height: 28px;
+left: 888px;
+top: 2070px;
+
+font-family: 'Judson';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+
+color: #312F2F;
+}
+
+#wizard {
+
+position: absolute;
+width: 112px;
+height: 28px;
+left: 887px;
+top: 2126px;
+
+font-family: 'Judson';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+
+color: #312F2F;
+
+}
+
+#ancestry {
+    position: absolute;
+width: 111px;
+height: 28px;
+left: 888px;
+top: 2182px;
+
+font-family: 'Judson';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+
+color: #312F2F;
+
+}
+
+#actor {
+    position: absolute;
+width: 110px;
+height: 28px;
+left: 889px;
+top: 2238px;
+
+font-family: 'Judson';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+
+color: #312F2F;
+
+}
+
+#fullNameContainer {
+position: absolute;
+width: 328px;
+height: 28px;
+left: 1014px;
+top: 1925px;
+text-align: center;
+color: #312f2fb3;
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;
+
+background: #D9D9D9;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+border-radius: 60px;
+}
+
+#speciesContainer {
+position: absolute;
+width: 328px;
+height: 28px;
+left: 1014px;
+top: 1985px;
+text-align: center;
+color: #312f2fb3;
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;
+
+background: #D9D9D9;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+border-radius: 60px;
+}
+
+#genderContainer {
+position: absolute;
+width: 328px;
+height: 28px;
+left: 1014px;
+top: 2037px;
+text-align: center;
+color: #312f2fb3;
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;
+
+background: #D9D9D9;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+border-radius: 60px;
+}
+
+#dateOfBirthContainer {
+position: absolute;
+width: 330px;
+height: 28px;
+left: 1013px;
+top: 2090px;
+text-align: center;
+color: #312f2fb3;
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;
+
+background: #D9D9D9;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+
+#wizardContainer {
+position: absolute;
+width: 328px;
+height: 28px;
+left: 1014px;
+top: 2148px;
+text-align: center;
+color: #312f2fb3;
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;
+
+background: #D9D9D9;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+
+#ancestryContainer {
+position: absolute;
+width: 329px;
+height: 28px;
+left: 1014px;
+top: 2205px;
+text-align: center;
+color: #312f2fb3;
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;
+
+background: #D9D9D9;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+
+#actorContainer {
+position: absolute;
+width: 330px;
+height: 28px;
+left: 1014px;
+top: 2260px;
+text-align: center;
+color: #312f2fb3;
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;
+
+background: #D9D9D9;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+
+.listButtonHighlighted {
+background-color:rgba(28, 111, 81, 0.42);
+}
+
+.listButtonHighlighted2 {
+    background-color:rgba(255, 234, 0, 0.453);
+    }
+
+.listButton {
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;
+width: 460px;
+background: #D9D9D9;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+border-radius: 70px;
+
+
+}
