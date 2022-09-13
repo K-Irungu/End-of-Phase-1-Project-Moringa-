@@ -9,6 +9,7 @@ This is a web application targeted at fans of the Harry Potter franchise. It fet
 On the page is a list of the names of members of House Slytherin. When clicked, the aforementioned details are displayed on the right-hand side of the page. The user may also choose to highlight the names of those of pure-blood ancestry, or even half-blood ancestry, to ease their search.
 
 Links:
+
 Live site on GitHub Pages:
 
 
